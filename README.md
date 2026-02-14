@@ -1,9 +1,9 @@
 <h1>Hyper-V Kali Deployment (Windows 11 Pro)</h1>
 
-<h2>Overview</h2> 
+## Overview 
 This project documents setting up virtual machine lab environment using Microsoft Hyper-V on Windows 11 Pro and a preconfigured Kali Linux VHDX image.
 
-<h2>The objective was to: </h2>
+## The objective was to: 
 
 - Enable and validate Hyper-V
 - Configure proper network segmentation
@@ -12,21 +12,6 @@ This project documents setting up virtual machine lab environment using Microsof
 - Maintain isolation from the home network
 - Establish a scalable foundation for future AD / SOC simulations
   
-## Lab Purpose: 
-
-### This deployment serves as a foundation for:
--  Active Directory attack simulations
--  Lateral movement testing
--  SIEM log generation
--  SOC alert triage practice
--  Malware containment labs
--  Network segmentation experiments
-
-## Security Considerations
--  Kali connected to Internal switch by default
--  External access used only when required
--  No attack traffic exposed to production/home LAN
--  Hash validation performed prior to deployment
 
 ## Skills Demonstrated
 -  Hypervisor configuration
@@ -163,6 +148,10 @@ Inside Kali CLI:
 | **NVMe storage**               | High I/O performance during scans                    | 
 | **SHA256 verification**        | Supply chain integrity validation                    | 
 
-
+## Security Considerations
+-  Kali connected to Internal switch by default
+-  External access used only when required
+-  No attack traffic exposed to production/home LAN
+-  Hash validation performed prior to deployment
 
 </p>
